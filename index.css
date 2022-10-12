@@ -8,5 +8,12 @@ display: flex;
   background-color: #e19999;
   border-radius: 50%;
   display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
+.greybackground {
+    background: grey;
+height: 200px;
+}
