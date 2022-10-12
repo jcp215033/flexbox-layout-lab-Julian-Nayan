@@ -1,0 +1,12 @@
+header {
+display: flex;
+}
+
+.dot {
+  height: 120px;
+  width: 120px;
+  background-color: #e19999;
+  border-radius: 50%;
+  display: inline-block;
+}
+
