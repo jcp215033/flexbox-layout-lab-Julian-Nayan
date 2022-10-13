@@ -1,5 +1,18 @@
-header {
-display: flex;
+* {
+  box-sizing: border-box;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.greybackground {
+    background: grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
 }
 
 .dot {
@@ -9,4 +22,30 @@ display: flex;
   border-radius: 50%;
   display: inline-block;
 }
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+section {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+article {
+    padding: 0 5%;
+    flex: 1;
+    min-width: 220px;
+}
+
+article:nth-of-type(2) {
+    flex: 3;
+}
+
+img {
+  width: 300px;
+}
+
 
